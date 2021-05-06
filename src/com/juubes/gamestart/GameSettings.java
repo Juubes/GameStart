@@ -6,14 +6,13 @@ import lombok.Getter;
 import lombok.Setter;
 
 public class GameSettings {
-
-    @Getter
-    @Setter
-    private int targetFPS = 60;
-
     @Getter
     @Setter
     private int targetTPS = 20;
+
+    @Getter
+    @Setter
+    private int maxFPS = 60;
 
     @Getter
     @Setter
